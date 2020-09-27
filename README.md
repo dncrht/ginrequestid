@@ -76,6 +76,10 @@ r.GET("/ping", func(c *gin.Context) {
 
 ## Changelog
 
+``0.0.3`` - 2020-09-27
+
+* Fix requestid.go:22:13: assignment mismatch: 2 variables but uuid.NewV4 returns 1 values.
+
 ``0.0.2`` - 2018-03-06
 
 * Fix for change in signature in the main dependecy of the package. In order to use the last version of `github.com/satori/go.uuid` update to `0.0.2` version.
